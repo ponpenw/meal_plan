@@ -1,0 +1,3 @@
+Recipe,eggs,chicken
+fried_rice, 2, 1 cup
+
