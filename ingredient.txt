@@ -1,3 +1,24 @@
-Recipe,eggs,chicken
-fried_rice, 2, 1 cup
+recipe,cooked rice,eggs,chicken,carrot,pea,oil,sauce,garlic
+fried_rice,1 cup,2,1 cup,1 tbs,1 tbs,1 tbs,1 tbs,1 ts
+noodle,egg,chicken,spinach,sauce,chicken broth
+noodle_soup,x,1,1/2 cup,1 cup,1 tbs,2 cup
+recipe,chicken,ginger,onion,oil,sauce,garlic
+ginger_chicken,1 cup,1 tbs,1 tbs,1tbs,1 ts
+recipe,steak,onion,bell pepper,basil,sauce,garlic,chili
+basil_steak,1 cup,2 tbs,2 tbs,1 cup,1 tbs,1 ts,1 ts
+recipe,pork,coconut milk,chilli paste,sauce
+panang_pork,1 cup,1 cup,1 tbs,1 tbs
+recipe,chicken,lemonglass,garlic,pepper,sauce
+grilled_chicken,1 cup,1 ts,1ts,1/2ts,1tbs
+recipe,shrimps,mushroom,lemonglass,chilli oil,sauce
+tomyum_shrimp,1 cup,1cup,1 tbs,1 tbs,1 tbs
+recipe,shrimps,green papaya,tomato,lime,palm sugar,salt,sauce
+papaya_salad,3,1 cup, 1 tbs,1tbs,1/2 tbs,1 ts.1 ts
+recipe,chicken,eggplant,basil,coconut milk,green curry paste,salt,palm sugar
+green_curry_chicken,1 cup,1cup,1cup,2 cup,1tbs,1 ts,1 ts
+recipe,cabbage,carrot,broccoli,garlic,sauce
+stirfried_veg,4 cup,1 cup,2 cup,1 tbs,1 tbs
+
+
+
 

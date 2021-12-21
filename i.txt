@@ -1,0 +1,6 @@
+recipe,cooked rice,eggs,chicken,carrot,pea,oil,sauce,garlic,noodle,spinach,chicken broth
+fried_rice,1 cup,2,1 cup,1 tbs,1 tbs,1 tbs,1 tbs,1 ts,x,x,x
+noodle_soup,x,1,1/2 cup,x,x,x,1 tbs,1 cup,1 cup,2 cup
+
+
+

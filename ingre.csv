@@ -1,0 +1,8 @@
+recipe/ingredient,cooked rice,egg,chicken,carrot,pea,oil,sauce,garlic,cooked noodle,spinach,chicken broth,ginger,onion,bell pepper,basil,chilli,coconut milk,chilli paste,lemonglass,pepper,mushroom,tomato
+fried_rice,x,x,x,x,x,x,x,x,,,,,,,,,,,,,,
+noodle_soup,,x,x,,,,x,,x,x,x,,,,,,,,,,,
+ginger_stirfried,,,x,,,x,x,x,,,,x,x,,,,,,,,,
+basil_stirfried,,,x,,,x,x,x,,,,,x,x,x,x,,,,,,
+panang_curry,,,x,,,,x,,,,,,,,,,x,x,,,,
+grilled_meat,,,x,,,,x,x,,,,,,,,,,,x,x,,
+tomyum_soup,,,x,x,,,x,,,,,,x,,,x,,,x,,x,x
