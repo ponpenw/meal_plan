@@ -38,61 +38,69 @@ def get_infos(file):
                     #print(i[ingredients[q]])
     return r,i
 
+def display_recipe(menu, r):
+
+    display_infos(menu, r)
+
+def display_ingr(ingr, i):
+
+    display_infos(ingr, i)
+
 def main():
     file = "ingre.csv"
-    r,i = get_infos(file)
-    for recipe in r:
-        display_infos(recipe, r)
-        #print(recipe, end=": ")
-        # for ingredients in r[recipe]:
-        #     print(ingredients, end=", ")
-        #print(", ".join(r[recipe])) # join list ", ".join()
-    print()
+    r, i = get_infos(file)
+    print("Hello, How are you doing? ")
+    user_reply = input("Would you like some help for dinner tonight? ")
+    if user_reply != "yes":
+        quit()
+    print("Great!! Let's get started ")
+    user_reply = input("Would you like to go with recipe or ingredient? ")
+    if user_reply == "recipe":
+        #call function
+        menu = input("What would you like \n "
+                     "fried rice \n noodle soup \n panang curry \n "
+                      "tom yum soup \n basil stirfried \n  ")
+        display_recipe(menu, r)
+    elif user_reply == "ingredient":
+        #call another function
+         ingr = input("What ingredient do you have? \n "
+                        "eeg \n chicken \n coocked_rice \n noodle \n spinach \n mushroom \n ")
+         display_ingr(ingr, i)
+    else:
+        quit()
 
-    for ingredients in i:
-        display_infos(ingredients, i)
+#    for recipe in r:
+#        display_infos(recipe, r)
+        #print(recipe, end=": ")
+        #for ingredients in r[recipe]:
+             #print(ingredients, end=", ")
+        #print(", ".join(r[recipe])) # join list ", ".join()
+    #print()
+
+#    for ingredients in i:
+#        display_infos(ans_protein, i)
+        #display_infos(ingredients, i)
         #print(ingredients, end=": ")
         #print(", ".join(i[ingredients]))
-    print()
+    #print()
 
-    display_infos("noodle_soup", r)
-    display_infos("panang_curry", r)
-    display_infos("cooked noodle", i)
+#    display_infos("noodle_soup", r)
+#    display_infos("panang_curry", r)
+#    display_infos("cooked noodle", i)
+#    display_infos("egg", i)
 
 
 main()
 
-exit()
 
 
-print("Hello, How are you doing? ")
-user_reply = input("Would you like some help for dinner tonight? ")
-if user_reply != "yes":
-    quit()
-print("Wonderful!! Let's get started ")
 
-answer1 = input("Do you have eggs or chicken? ")
-if answer1 == "eggs":
-    print("ingredient is ", answer1)
-elif answer1 == "chicken":
-    print("Chicken! It' is")
-else:
-    print("Sorry! I can only help with either eggs or chicken at the moment")
 
-print("Great!! It is going to be an easy meal today")
-answer1 = input("Do you have rice or noodle? ")
-if answer1 == "rice":
-     print("Rice is perfect!!")
-     print("Let's make fried rice")
-     #recipe = "fried_rice"
-     display_infos("fried_rice", r)
-     # print(recipe, end=": ")
-     # print(", ".join(r[recipe]))#how can I specify to print out just one recipe with ingredients
-elif answer1 == "noodle":
-     print("Noodle is fun")
-     print("Noodle soup sounds good to me!") #code to get recipe for noodle soup
-else:
-     print("Sorry! I can only help with rice or noodle")
+
+
+
+
+
 
 
 
