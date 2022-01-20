@@ -46,6 +46,8 @@ def display_ingr(ingr, i):
 
     display_infos(ingr, i)
 
+
+
 def main():
     file = "ingre.csv"
     r, i = get_infos(file)
@@ -60,12 +62,14 @@ def main():
         menu = input("What would you like \n "
                      "fried rice \n noodle soup \n panang curry \n "
                       "tom yum soup \n basil stirfried \n  ")
-        display_recipe(menu, r)
+#        display_recipe(menu, r)
+        display_infos(menu, r)
     elif user_reply == "ingredient":
         #call another function
          ingr = input("What ingredient do you have? \n "
                         "eeg \n chicken \n coocked_rice \n noodle \n spinach \n mushroom \n ")
-         display_ingr(ingr, i)
+#         display_ingr(ingr, i)
+         display_infos(ingr, i)
     else:
         quit()
 
@@ -73,7 +77,7 @@ def main():
 #        display_infos(recipe, r)
         #print(recipe, end=": ")
         #for ingredients in r[recipe]:
-             #print(ingredients, end=", ")
+         #print(ingredients, end=", ")
         #print(", ".join(r[recipe])) # join list ", ".join()
     #print()
 
