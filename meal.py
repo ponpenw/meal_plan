@@ -43,10 +43,7 @@ def display_recipe(menu, r):
     display_infos(menu, r)
 
 def display_ingr(ingr, i):
-
     display_infos(ingr, i)
-
-
 
 def main():
     file = "ingre.csv"
